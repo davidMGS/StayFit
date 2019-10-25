@@ -1,0 +1,26 @@
+.idea/
+.DS_Store
+*.log
+
+/node_modules/
+
+# branch.io (use a build.json in 'script/build' instead)
+/build.json
+
+# Configurations for FCM, copied to this location for build
+/google-services.json
+/GoogleService-Info.plist
+
+# archived app builds
+/script/archive/
+
+# generated and used during app build
+/config.xml
+/platforms/
+/plugins/
+/www/
+/www_eureka/
+/script/configuration/versions.json
+
+# output of `python script/package_details.csv`
+outdated.csv
